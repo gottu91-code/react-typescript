@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let testVariable: boolean = true;
+    console.log(testVariable);
+
+    const testArray: Array<number> = [2, 2, 3];
+    console.log(testArray);
+
+    const testArray2: number[] = [2, 2, 2, 2];
+    console.log(testArray2);
+
+    return (
+        <>
+            <p>typescript</p>
+        </>
+    );
 }
 
 export default App;
